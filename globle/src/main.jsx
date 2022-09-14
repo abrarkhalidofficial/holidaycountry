@@ -249,7 +249,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section>
+      <section className="Cards">
         <div className="Overlay__Cards">
           <div className="Overlay__Card__con">
             <div className="overlay__img">
