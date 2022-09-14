@@ -10,6 +10,11 @@ import sliderimg3 from "../image/slider3.png";
 import sliderimg4 from "../image/slider4.png";
 import sliderimg5 from "../image/slider5.png";
 import sliderimg6 from "../image/slider6.png";
+import placeleftlogo from "../image/Place-Logo.png";
+import placemidimg from "../image/Place-left.png";
+import placerightimg from "../image/place-right.png";
+import eventlogo from "../image/event-logo.png";
+import eventimg from "../image/event-section.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -204,6 +209,43 @@ function App() {
               );
             })}
           </Swiper>
+        </div>
+      </section>
+      <section className="place">
+        <div className="place__left">
+          <div className="place__left__logo">
+            <img src={placeleftlogo} alt="" />
+          </div>
+          <div className="place__left__heading">Historical Places</div>
+        </div>
+        <div className="place__mid">
+          <div className="place__mid__img">
+            <img src={placemidimg} alt="" />
+          </div>
+          <div className="place__mid__heading">SHER SHAH SURI WELL</div>
+        </div>
+        <div className="place__right">
+          <div className="place__right__img">
+            <img src={placerightimg} alt="" />
+          </div>
+          <div className="place__right__heading">DAK BUGLA</div>
+        </div>
+      </section>
+
+      <section className="event">
+        <div className="event__img">
+          <img src={eventimg} alt="" />
+        </div>
+        <div className="event__con">
+          <div className="event__con__logo">
+            <img src={eventlogo} alt="" />
+          </div>
+          <div className="event__con__heading">Event Lawn</div>
+          <div className="event__con__info">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took.
+          </div>
         </div>
       </section>
     </div>

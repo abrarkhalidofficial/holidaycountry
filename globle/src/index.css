@@ -217,7 +217,7 @@ body {
 }
 .offer__Section {
   position: relative;
-  max-width: 1940px;
+  max-width: 1920px;
   margin: 0 auto;
 }
 .offer__heading__img {
@@ -264,7 +264,104 @@ body {
   color: white;
   z-index: 9999;
 }
-
+.place {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1920px;
+  position: relative;
+}
+.place__left {
+  width: 20%;
+  margin-right: 2em;
+  margin-top: 10em;
+}
+.place__mid {
+  margin-top: 8em;
+  /* width: 35%; */
+  position: relative;
+  margin-right: 2em;
+}
+.place__right {
+  /* width: 15%; */
+  margin-top: 8em;
+}
+.place__left {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.place__left__heading {
+  font-size: 48px;
+  font-family: "Prata", serif;
+}
+.place__mid__img img {
+  width: 100%;
+  height: 360px;
+}
+.place__mid__heading {
+  font-size: 48px;
+  color: white;
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  width: 80%;
+  font-family: "Prata", serif;
+}
+.place__right__img img {
+  height: 360px;
+}
+.place__right__heading {
+  font-size: 48px;
+  color: white;
+  transform: rotate(-90deg);
+  position: absolute;
+  font-family: "Prata", serif;
+  top: 58%;
+  margin-left: 1.5em;
+}
+.event {
+  width: 100%;
+  padding-top: 8em;
+  padding-bottom: 8em;
+  margin: 0 auto;
+  max-width: 1920px;
+  position: relative;
+}
+.event__img img {
+  width: 100%;
+  height: 490px;
+}
+.event__con {
+  width: 20%;
+  padding-top: 2em;
+  background-color: #042a39;
+  border-radius: 0px 160px 0px 0px;
+  position: absolute;
+  top: 22%;
+  left: 65%;
+}
+.event__con__logo {
+  margin-left: 2em;
+  margin-bottom: 10px;
+}
+.event__con__heading {
+  font-size: 25px;
+  color: white;
+  font-family: "Prata", serif;
+  margin-left: 1em;
+  margin-bottom: 10px;
+}
+.event__con__info {
+  margin-left: 1.5em;
+  font-size: 17px;
+  width: 70%;
+  color: white;
+  font-family: "Prata", serif;
+  padding-bottom: 1em;
+}
 @media (max-width: 1520px) {
   .contect__header__line {
     padding-top: 16%;
