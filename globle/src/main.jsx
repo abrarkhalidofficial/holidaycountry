@@ -249,31 +249,27 @@ function App() {
           </div>
         </div>
       </section>
-
-      <section className="Overlay__Cards">
-        <div className="Overlay__Card__con">
-          <div className="overlay__img">
-            <div className="Overlay__Card__img">
-              <img src={overlaycard1} alt="" />
+      <section>
+        <div className="Overlay__Cards">
+          <div className="Overlay__Card__con">
+            <div className="overlay__img">
+              <div className="Overlay__Card__img">
+                <img src={overlaycard1} alt="" />
+              </div>
             </div>
+            <div className="overlay__heading">Swimming Pool</div>
           </div>
-          <div className="overlay__heading">Swimming Pool</div>
-        </div>
-        <div className="Overlay__Card__con">
-          <div className="overlay__img">
-            <div className="Overlay__Card__img">
-              <img src={overlaycard1} alt="" />
+          <div className="Overlay__Card__logo">
+            <img src={overlaylogo} alt="" />
+          </div>
+          <div className="Overlay__Card__con">
+            <div className="overlay__img">
+              <div className="Overlay__Card__img">
+                <img src={overlaycard1} alt="" />
+              </div>
             </div>
+            <div className="overlay__heading">Swimming Pool</div>
           </div>
-          <div className="overlay__heading">Swimming Pool</div>
-        </div>
-        <div className="Overlay__Card__con">
-          <div className="overlay__img">
-            <div className="Overlay__Card__img">
-              <img src={overlaycard1} alt="" />
-            </div>
-          </div>
-          <div className="overlay__heading">Swimming Pool</div>
         </div>
       </section>
     </div>

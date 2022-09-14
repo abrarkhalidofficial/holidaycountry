@@ -369,6 +369,13 @@ body {
   margin: 0 auto;
   max-width: 1920px;
 }
+.Overlay__Card__logo {
+  position: relative;
+}
+.Overlay__Card__logo img {
+  margin: 2em;
+  height: 400px;
+}
 .Overlay__Card__con {
   width: 20%;
   margin: 2em;
@@ -387,18 +394,17 @@ body {
     #ad925e 0%,
     rgba(173, 146, 94, 0.46) 100%
   );
-  /* position: absolute; */
-
   z-index: 9999;
-  border-radius: 15px;
+  border-radius: 12px;
   cursor: pointer;
 }
 .overlay__heading {
   font-size: 30px;
+  color: white;
   font-family: "Prata", serif;
   position: absolute;
   top: 80%;
-  left: 5%;
+  left: 10%;
 }
 
 @media (max-width: 1520px) {
