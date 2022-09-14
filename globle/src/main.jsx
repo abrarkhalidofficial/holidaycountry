@@ -15,6 +15,8 @@ import placemidimg from "../image/Place-left.png";
 import placerightimg from "../image/place-right.png";
 import eventlogo from "../image/event-logo.png";
 import eventimg from "../image/event-section.png";
+import overlaylogo from "../image/overlay-logo.png";
+import overlaycard1 from "../image/overlaycard1.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -231,7 +233,6 @@ function App() {
           <div className="place__right__heading">DAK BUGLA</div>
         </div>
       </section>
-
       <section className="event">
         <div className="event__img">
           <img src={eventimg} alt="" />
@@ -245,6 +246,13 @@ function App() {
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took.
+          </div>
+        </div>
+      </section>
+      <section className="Overlay__Cards">
+        <div className="Overlay__Card__con">
+          <div className="Overlay__Card__img">
+            <img src={overlaycard1} alt="" />
           </div>
         </div>
       </section>
