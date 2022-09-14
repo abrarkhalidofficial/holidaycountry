@@ -126,6 +126,7 @@ function AboutSection() {
     </section>
   );
 }
+
 function App() {
   const sliderEntries = [
     {
@@ -177,6 +178,7 @@ function App() {
       img: sliderimg6,
     },
   ];
+
   return (
     <div>
       <HomeSection />
@@ -207,5 +209,3 @@ function App() {
     </div>
   );
 }
-
-<section className=""></section>;

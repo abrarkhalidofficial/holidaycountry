@@ -242,7 +242,7 @@ body {
   width: 40%;
   display: flex;
 }
-.offer__overlay {
+/* .offer__overlay {
   background: linear-gradient(
     180deg,
     #ad925e 0%,
@@ -254,7 +254,7 @@ body {
   z-index: 9999;
   border-radius: 20px 20px 0px 0px;
   cursor: pointer;
-}
+} */
 .slider__img__heading {
   position: absolute;
   top: 85%;
