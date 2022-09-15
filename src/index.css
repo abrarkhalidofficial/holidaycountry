@@ -459,6 +459,7 @@ body {
   margin: 1em;
   padding-bottom: 2em;
   padding-top: 2em;
+  border-radius: 5px;
 }
 .location__card__svg {
   margin-bottom: 1em;
@@ -505,7 +506,7 @@ body {
 }
 .details__left__heading__all {
   display: flex;
-  background-color: #ad925e;
+  background-color: #042a39;
   width: 100%;
   margin-left: 8em;
   border-radius: 22px;
@@ -516,13 +517,16 @@ body {
   margin: 1em;
   margin-left: 2em;
   color: white;
-  background-color: #ad925e;
+  background-color: #042a39;
   font-weight: 600;
   /* border-radius: 21px; */
 }
 .details__left__entries {
   width: 25%;
-  border: #a7a7a7 1px solid;
+  /* border: #a7a7a7 1px solid; */
+  border-left: #a7a7a7 1px solid;
+  border-right: #a7a7a7 1px solid;
+  border-bottom: #a7a7a7 1px solid;
   border-radius: 20px;
 }
 .details__left__entries_all {
