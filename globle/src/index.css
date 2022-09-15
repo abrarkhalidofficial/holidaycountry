@@ -419,6 +419,8 @@ body {
   margin-top: 8em;
   text-align: center;
   margin-bottom: 4em;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .location__heading {
@@ -430,7 +432,7 @@ body {
   width: 25%;
 }
 .location__card__heading {
-  font-size: 18px;
+  font-size: 16px;
   padding-top: 1em;
   color: #ad925e;
 }
@@ -468,6 +470,13 @@ body {
 }
 .location__card__svg svg:hover {
   fill: #ffffff;
+}
+.wrapper {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  margin-top: 4em;
+  margin-bottom: 8em;
 }
 
 @media (max-width: 1520px) {

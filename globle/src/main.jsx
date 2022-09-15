@@ -21,6 +21,8 @@ import overlaycard2 from "../image/overlaycard2.png";
 import overlaycard3 from "../image/overlaycard3.png";
 import overlaycard4 from "../image/overlaycard4.png";
 import overlaycard5 from "../image/overlaycard5.png";
+import locationmap from "../image/locationmap.png";
+import detailright from "../image/details__right.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -192,7 +194,7 @@ function App() {
 
   return (
     <div>
-      <HomeSection />
+      {/* <HomeSection /> */}
       <AboutSection />
       <section className="offer__Section">
         <div class="offer__heading">Facilities We Offer</div>
@@ -478,6 +480,18 @@ function App() {
                 Swan River.
               </span>{" "}
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="location__map">
+        <img src={locationmap} alt="" />
+      </section>
+      <section className="details">
+        <div className="detail__heading">Farm House Details</div>
+        <div className="details__left"></div>
+        <div className="details__right">
+          <div className="details__right__img">
+            <img src={detailright} alt="" />
           </div>
         </div>
       </section>
