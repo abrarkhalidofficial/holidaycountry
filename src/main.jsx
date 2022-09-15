@@ -633,7 +633,7 @@ function App() {
         </div>
         <div className="footer__social">
           <div className="footer__social__link">
-            <a href="">
+            <a href="#">
               <svg
                 width="31"
                 height="31"
@@ -657,7 +657,7 @@ function App() {
             </a>
           </div>
           <div className="footer__social__link">
-            <a href="">
+            <a href="#">
               <svg
                 width="31"
                 height="31"
@@ -673,7 +673,7 @@ function App() {
             </a>
           </div>
           <div className="footer__social__link">
-            <a href="">
+            <a href="#">
               <svg
                 width="31"
                 height="31"
@@ -691,7 +691,7 @@ function App() {
             </a>
           </div>
           <div className="footer__social__link">
-            <a href="">
+            <a href="#">
               <svg
                 width="29"
                 height="25"
