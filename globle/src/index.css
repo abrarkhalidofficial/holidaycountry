@@ -389,6 +389,12 @@ body {
   width: 100%;
 }
 .overlay__img {
+  background: linear-gradient(180deg, #042a39 0%, rgba(4, 42, 57, 0) 100%);
+  z-index: 9999;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.overlay__img:hover {
   background: linear-gradient(
     180deg,
     #ad925e 0%,
@@ -399,12 +405,39 @@ body {
   cursor: pointer;
 }
 .overlay__heading {
-  font-size: 30px;
+  font-size: 25px;
   color: white;
   font-family: "Prata", serif;
   position: absolute;
-  top: 80%;
-  left: 10%;
+  top: 75%;
+  left: 15%;
+}
+.location {
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.location__heading {
+  font-size: 45px;
+  font-family: "Prata", serif;
+  margin-bottom: 1em;
+}
+.location__card {
+  width: 25%;
+}
+.location__card__heading {
+  font-size: 18px;
+  font-family: "Prata", serif;
+  color: #9e824c;
+}
+.location__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 1520px) {
@@ -433,6 +466,7 @@ body {
     margin-left: 3em;
   }
 }
+
 @media (max-width: 1050px) {
   .navbar__logo {
     width: 95%;
