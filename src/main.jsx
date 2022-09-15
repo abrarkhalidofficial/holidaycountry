@@ -23,6 +23,7 @@ import overlaycard4 from "../image/overlaycard4.png";
 import overlaycard5 from "../image/overlaycard5.png";
 import locationmap from "../image/locationmap.png";
 import detailright from "../image/details__right.png";
+import detailrightfin from "../image/detailsfin.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -488,10 +489,52 @@ function App() {
       </section>
       <section className="details">
         <div className="detail__heading">Farm House Details</div>
-        <div className="details__left"></div>
-        <div className="details__right">
-          <div className="details__right__img">
-            <img src={detailright} alt="" />
+        <div className="detials__all__con">
+          <div className="details__left">
+            <div className="details__left__heading__all">
+              <div className="details__left__heading">Size</div>
+              <div className="details__left__heading">Pre-Launch</div>
+              <div className="details__left__heading">Launch</div>
+              <div className="details__left__heading">Post-Launch</div>
+            </div>
+            <div className="details__left__entries_all">
+              <div className="details__left__entries">
+                <div className="details__left__entries__heading">4 Canal</div>
+                <div className="details__left__entries__heading">8 Canal</div>
+                <div className="details__left__entries__heading">12 Canal</div>
+              </div>
+              <div className="details__left__entries">
+                <div className="details__left__entries__heading">4 Million</div>
+                <div className="details__left__entries__heading">
+                  14 Million
+                </div>
+                <div className="details__left__entries__heading">
+                  20 Million
+                </div>
+              </div>
+
+              <div className="details__left__entries">
+                <div className="details__left__entries__heading">
+                  10 Million
+                </div>
+                <div className="details__left__entries__heading">
+                  16 Million
+                </div>
+              </div>
+              <div className="details__left__entries">
+                <div className="details__left__entries__heading">
+                  12 Million
+                </div>
+                <div className="details__left__entries__heading">
+                  19.2 Million
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="details__right">
+            <div className="details__right__img">
+              <img src={detailrightfin} alt="" />
+            </div>
           </div>
         </div>
       </section>

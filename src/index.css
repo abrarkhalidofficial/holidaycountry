@@ -471,6 +471,77 @@ body {
 .location__card__svg svg:hover {
   fill: #ffffff;
 }
+.location__map {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+.detail__heading {
+  font-size: 45px;
+  font-family: "Prata", serif;
+  margin-bottom: 1em;
+}
+.details {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4em;
+  text-align: center;
+  padding-top: 8em;
+  margin-bottom: 4em;
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+}
+.detials__all__con {
+  display: flex;
+}
+.details__left {
+  width: 77%;
+  justify-content: center;
+  display: grid;
+}
+.details__left__heading__all {
+  display: flex;
+  background-color: #ad925e;
+  width: 100%;
+  margin-left: 8em;
+  border-radius: 22px;
+}
+
+.details__left__heading {
+  width: 15%;
+  margin: 1em;
+  margin-left: 2em;
+  color: white;
+  background-color: #ad925e;
+  font-weight: 600;
+  /* border-radius: 21px; */
+}
+.details__left__entries {
+  width: 25%;
+  border: #a7a7a7 1px solid;
+  border-radius: 20px;
+}
+.details__left__entries_all {
+  display: flex;
+  margin-left: 8em;
+  width: 100%;
+}
+.details__left__entries__heading {
+  font-size: 18px;
+  color: #9e824c;
+  padding: 2em;
+}
+.details__right {
+  width: 20%;
+}
+.details__right__img img {
+  height: 550px;
+  position: absolute;
+  top: 0;
+}
 .wrapper {
   width: 100%;
   max-width: 1920px;
@@ -478,7 +549,6 @@ body {
   margin-top: 4em;
   margin-bottom: 8em;
 }
-
 @media (max-width: 1520px) {
   .contect__header__line {
     padding-top: 16%;
