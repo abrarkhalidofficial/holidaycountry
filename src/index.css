@@ -389,14 +389,14 @@ body {
   width: 100%;
 }
 .overlay__img {
-  background: linear-gradient(180deg, #042a39 0%, rgba(4, 42, 57, 0) 100%);
+  background: linear-gradient(360deg, #042a39 0%, rgba(4, 42, 57, 0) 100%);
   z-index: 9999;
   border-radius: 12px;
   cursor: pointer;
 }
 .overlay__img:hover {
   background: linear-gradient(
-    180deg,
+    360deg,
     #ad925e 0%,
     rgba(173, 146, 94, 0.46) 100%
   );
@@ -409,8 +409,8 @@ body {
   color: white;
   font-family: "Prata", serif;
   position: absolute;
-  top: 75%;
-  left: 15%;
+  top: 80%;
+  left: 22%;
 }
 .location {
   width: 100%;

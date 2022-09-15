@@ -24,6 +24,9 @@ import overlaycard5 from "../image/overlaycard5.png";
 import locationmap from "../image/locationmap.png";
 import detailright from "../image/details__right.png";
 import detailrightfin from "../image/detailsfin.png";
+import detailrightfin from "../image/detailsfin.png";
+import footerlogo from "../image/footerlogo.png";
+import footerleft from "../image/footerleft.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -536,6 +539,17 @@ function App() {
               <img src={detailrightfin} alt="" />
             </div>
           </div>
+        </div>
+      </section>
+      <section className="footer">
+        <div className="footer__logo">
+          <img src={footerlogo} alt="" />
+        </div>
+        <div className="footer__lorem">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.
         </div>
       </section>
     </div>
