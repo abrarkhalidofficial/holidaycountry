@@ -414,10 +414,10 @@ body {
 }
 .location {
   width: 100%;
-
   justify-content: center;
   align-items: center;
-  margin-top: 4em;
+  margin-top: 8em;
+  text-align: center;
   margin-bottom: 4em;
 }
 
@@ -431,13 +431,43 @@ body {
 }
 .location__card__heading {
   font-size: 18px;
-  font-family: "Prata", serif;
-  color: #9e824c;
+  padding-top: 1em;
+  color: #ad925e;
+}
+.location__card__heading__Span {
+  font-weight: bold;
 }
 .location__card {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.All__location__Cards {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    360deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(241, 241, 241, 1) 100%
+  );
+  width: 12%;
+  padding: 1em;
+  margin: 1em;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+.location__card__svg {
+  margin-bottom: 1em;
+}
+.All__location__Cards:hover {
+  background: #042a39;
+}
+.location__card__svg svg {
+  fill: #042a39;
+}
+.location__card__svg svg:hover {
+  fill: #ffffff;
 }
 
 @media (max-width: 1520px) {
