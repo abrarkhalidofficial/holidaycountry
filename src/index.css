@@ -558,7 +558,8 @@ body {
   max-width: 1920px;
   margin: 0 auto;
   margin-top: 8em;
-  padding: 5em;
+  /* padding: 5em; */
+  padding-top: 5em;
   background-color: #042a39;
   color: white;
   position: relative;
@@ -587,6 +588,44 @@ body {
 }
 .footer__right {
   width: 80%;
+}
+.footer__bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 3em;
+  text-align: center;
+}
+.footer__bottom__svg {
+  margin: 1em;
+}
+.footer__bottom__heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+}
+.all__footer__bottom__con {
+  padding: 5em;
+  border-right: 2px solid white;
+  width: 25%;
+}
+.footer__bottom__info {
+  font-size: 14px;
+  /* font-weight: bold; */
+  font-family: "Prata", serif;
+  margin: 10px;
+}
+.footer__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 3em;
+  text-align: center;
+}
+.footer__social__link {
+  padding: 2em;
 }
 @media (max-width: 1520px) {
   .contect__header__line {
