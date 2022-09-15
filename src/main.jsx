@@ -24,7 +24,6 @@ import overlaycard5 from "../image/overlaycard5.png";
 import locationmap from "../image/locationmap.png";
 import detailright from "../image/details__right.png";
 import detailrightfin from "../image/detailsfin.png";
-import detailrightfin from "../image/detailsfin.png";
 import footerlogo from "../image/footerlogo.png";
 import footerleft from "../image/footerleft.png";
 
@@ -545,11 +544,40 @@ function App() {
         <div className="footer__logo">
           <img src={footerlogo} alt="" />
         </div>
-        <div className="footer__lorem">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+        <div className="footer__all__con">
+          {" "}
+          <div className="footer__left">
+            <img src={footerleft} alt="" />
+          </div>
+          <div className="footer__lorem">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </div>
+        </div>
+
+        <div className="footer__bottom">
+          <div className="all__footer__bottom__con">
+            <div className="footer__bottom__svg">
+              <svg
+                width="68"
+                height="56"
+                viewBox="0 0 68 56"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M61.7342 8.65787L64.6546 6.8125H61.2H6.8H3.34544L6.26582 8.65787L33.4658 25.8454L34 26.1829L34.5342 25.8454L61.7342 8.65787ZM61.2 50.0625H62.2V49.0625V14.6875V12.8727L60.6658 13.8421L34 30.6921L7.33418 13.8421L5.8 12.8727V14.6875V49.0625V50.0625H6.8H61.2ZM61.2 1.9375C64.3774 1.9375 67 4.57316 67 7.8125V49.0625C67 52.3018 64.3774 54.9375 61.2 54.9375H6.8C3.6226 54.9375 1 52.3018 1 49.0625V7.8125C1 4.57316 3.6226 1.9375 6.8 1.9375H61.2Z"
+                  fill="#AE935E"
+                  stroke="#042A39"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <div className="footer__bottom__heading">Email Address</div>
+            <div className="footer__bottom__info">abc123@gmail.com</div>
+          </div>
         </div>
       </section>
     </div>

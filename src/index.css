@@ -412,6 +412,7 @@ body {
   top: 80%;
   left: 22%;
 }
+
 .location {
   width: 100%;
   justify-content: center;
@@ -548,6 +549,44 @@ body {
   margin: 0 auto;
   margin-top: 4em;
   margin-bottom: 8em;
+}
+.footer {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1920px;
+  margin: 0 auto;
+  margin-top: 8em;
+  padding: 5em;
+  background-color: #042a39;
+  color: white;
+  position: relative;
+}
+.footer__logo {
+  margin-bottom: 1em;
+}
+.footer__lorem {
+  margin: 1em;
+  width: 70%;
+  font-family: "Prata", serif;
+  font-size: 17px;
+  text-align: center;
+}
+.footer__left {
+  width: 20%;
+}
+.footer__all__con {
+  display: flex;
+}
+.footer__left img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 170px;
+}
+.footer__right {
+  width: 80%;
 }
 @media (max-width: 1520px) {
   .contect__header__line {
