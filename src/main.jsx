@@ -30,7 +30,6 @@ import footerleft from "../image/footerleft.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 ReactDOM.createRoot(document.getElementById("root")).render(<App />);
-
 function HomeSection() {
   return (
     <section className="container" id="Home">
@@ -115,33 +114,6 @@ function HomeSection() {
     </section>
   );
 }
-function AboutSection() {
-  return (
-    <section className="about__us">
-      <div className="about__us__all">
-        <div className="about__us__left">
-          <div className="about__us__left__logo">
-            <img src="./image/About__us__logo.png" alt="" />
-          </div>
-          <div className="about__us__left__heading">About Us</div>
-          <div className="about__us__left__Info">
-            {" "}
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </div>
-        </div>
-        <div className="about__us__mid">
-          <img src="./image/abou__us.png" alt="" />
-        </div>
-        <div className="about__us__right">
-          <img src="./image/about__us__ryt.png" alt="" />
-        </div>
-      </div>
-    </section>
-  );
-}
 
 function App() {
   const sliderEntries = [
@@ -198,7 +170,29 @@ function App() {
   return (
     <div>
       {/* <HomeSection /> */}
-      <AboutSection />
+      <section className="about__us">
+        <div className="about__us__all">
+          <div className="about__us__left">
+            <div className="about__us__left__logo">
+              <img src="./image/About__us__logo.png" alt="" />
+            </div>
+            <div className="about__us__left__heading">About Us</div>
+            <div className="about__us__left__Info">
+              {" "}
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </div>
+          </div>
+          <div className="about__us__mid">
+            <img src="./image/abou__us.png" alt="" />
+          </div>
+          <div className="about__us__right">
+            <img src="./image/about__us__ryt.png" alt="" />
+          </div>
+        </div>
+      </section>
       <section className="offer__Section">
         <div class="offer__heading">Facilities We Offer</div>
         <div className="offer__heading__img">
