@@ -170,7 +170,7 @@ function App() {
   return (
     <div>
       {/* <HomeSection /> */}
-      <section className="about__us">
+      <section className="about__us" id="About">
         <div className="about__us__all">
           <div className="about__us__left">
             <div className="about__us__left__logo">
@@ -252,7 +252,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="Cards">
+      <section className="Cards" id="Features">
         <div className="Overlay__Cards">
           <div className="Overlay__Card__con">
             <div className="overlay__img">
@@ -534,7 +534,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="footer">
+      <section className="footer" id="Contact">
         <div className="footer__logo">
           <img src={footerlogo} alt="" />
         </div>
