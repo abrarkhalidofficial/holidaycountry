@@ -466,8 +466,10 @@ body::-webkit-scrollbar-track {
 }
 .location__card__svg svg {
   fill: #042a39;
+  width: 60px;
+  height: 60px;
 }
-.location__card__svg svg:hover {
+.All__location__Cards:hover svg {
   fill: #ffffff;
 }
 .location__map {

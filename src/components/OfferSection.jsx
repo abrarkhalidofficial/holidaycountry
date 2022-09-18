@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import offerback from "../assets/offerback.png";
 import sliderimg1 from "../assets/slider1.png";
 import sliderimg2 from "../assets/slider2.png";
@@ -9,6 +9,27 @@ import sliderimg6 from "../assets/slider6.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 export function OfferSection() {
+  const [slidesPerView, setSlidesPerView] = useState(6);
+  function changeSlidesPerView() {
+    if (window.innerWidth < 400) {
+      setSlidesPerView(1);
+    } else if (window.innerWidth < 600) {
+      setSlidesPerView(2);
+    } else if (window.innerWidth < 800) {
+      setSlidesPerView(3);
+    } else if (window.innerWidth < 1000) {
+      setSlidesPerView(4);
+    } else if (window.innerWidth < 1200) {
+      setSlidesPerView(5);
+    } else {
+      setSlidesPerView(6);
+    }
+  }
+  useEffect(() => {
+    changeSlidesPerView();
+    window.addEventListener("resize", changeSlidesPerView);
+  }, []);
+
   const sliderEntries = [
     {
       name: "Horse Stable",
@@ -67,7 +88,7 @@ export function OfferSection() {
         <img src={offerback} alt="" />
       </div>
       <div className="slider">
-        <Swiper spaceBetween={15} slidesPerView={6}>
+        <Swiper spaceBetween={15} slidesPerView={slidesPerView}>
           {sliderEntries.map((item, index) => {
             return (
               <SwiperSlide className="swiper__slider" key={index}>
