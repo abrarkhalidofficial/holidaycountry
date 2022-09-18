@@ -32,7 +32,7 @@ export function LocationSection() {
           </div>
           <div className="location__card__heading">
             <span className="location__card__heading__Span">
-              6 Km from tarap Interchange
+              6 Km from tarap Interchange{" "}
             </span>
             on main Talagang Road.
           </div>
@@ -52,7 +52,7 @@ export function LocationSection() {
           </div>
           <div className="location__card__heading">
             <span className="location__card__heading__Span">
-              50-70 min Drive from Islamabad
+              50-70 min Drive from Islamabad{" "}
             </span>
             Hakla Interchange.
           </div>
@@ -101,7 +101,10 @@ export function LocationSection() {
           </div>
           <div className="location__card__heading">
             Located in Distrtct
-            <span className="location__card__heading__Span">Chakwal .</span>
+            <span className="location__card__heading__Span">
+              {" "}
+              <br /> Chakwal .
+            </span>
           </div>
         </div>
 
