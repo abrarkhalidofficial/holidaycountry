@@ -19,6 +19,11 @@
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.1.0",
     "sass": "^1.54.9",
-    "vite": "^3.1.2"
+    "vite": "^3.1.1",
+    "vite-imagetools": "^4.0.9",
+    "vite-plugin-chunk-split": "^0.4.0",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-imagemin": "^0.6.1",
+    "vite-plugin-webfont-dl": "^3.1.1"
   }
 }
