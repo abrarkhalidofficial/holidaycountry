@@ -24,7 +24,7 @@ export function HomeSection() {
           <div className="navbar__logo">
             <div className="navbar__logo__content">
               <div className="navbar__logo__img">
-                <a href="https://holiday-country.web.app/">
+                <a href="Home">
                   <img src={Bannerlogo} alt="Bannerlogo" />
                 </a>
               </div>
@@ -101,13 +101,28 @@ export function HomeSection() {
             </div>
           </div>
           <div className="contect__header">
-            <div className="contect__header__logo">
+            <div
+              className="contect__header__logo"
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
               <img src={contect__header__logo} alt="contect__header__logo" />
             </div>
-            <div className="contect__header__line">
+            <div
+              className="contect__header__line"
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="1300"
+            >
               Welcome to Holiday Country Club
             </div>
-            <div className="contect__header__hr__line"></div>
+            <div
+              className="contect__header__hr__line"
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="1400"
+            ></div>
           </div>
         </div>
       </div>

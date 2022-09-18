@@ -3,9 +3,20 @@ import React from "react";
 export function LocationSection() {
   return (
     <section className="location">
-      <div className="location__heading">Our Location</div>
+      <div
+        className="location__heading"
+        data-aos="fade-up"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+      >
+        Our Location
+      </div>
       <div className="location__card">
-        <div className="All__location__Cards">
+        <div
+          className="All__location__Cards"
+          data-aos="fade-up"
+          data-aos-delay="50"
+        >
           <div className="location__card__svg">
             <svg
               width="93"

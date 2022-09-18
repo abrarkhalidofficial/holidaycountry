@@ -83,7 +83,14 @@ export function OfferSection() {
 
   return (
     <section className="offer__Section">
-      <div className="offer__heading">Facilities We Offer</div>
+      <div
+        className="offer__heading"
+        data-aos="fade-up"
+        data-aos-delay="50"
+        data-aos-duration="1200"
+      >
+        Facilities We Offer
+      </div>
       <div className="offer__heading__img">
         <img src={offerback} alt="background" />
       </div>
@@ -92,7 +99,12 @@ export function OfferSection() {
           {sliderEntries.map((item, index) => {
             return (
               <SwiperSlide className="swiper__slider" key={index}>
-                <div className="swiper__card__con">
+                <div
+                  className="swiper__card__con"
+                  data-aos="fade-up"
+                  data-aos-delay="50"
+                  data-aos-duration="1500"
+                >
                   <div className="slider__img">
                     <img src={item.img} alt="swiperimg" />
                   </div>

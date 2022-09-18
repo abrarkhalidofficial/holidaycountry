@@ -9,7 +9,12 @@ import overlaycard5 from "../assets/overlaycard5.png";
 export function FeatureSection() {
   return (
     <section className="Cards" id="Features">
-      <div className="Overlay__Cards">
+      <div
+        className="Overlay__Cards"
+        data-aos="fade-up"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+      >
         <div className="Overlay__Card__con">
           <div className="overlay__img">
             <div className="Overlay__Card__img">
@@ -18,7 +23,12 @@ export function FeatureSection() {
           </div>
           <div className="overlay__heading">Swimming Pool</div>
         </div>
-        <div className="Overlay__Card__logo">
+        <div
+          className="Overlay__Card__logo"
+          data-aos="fade-up"
+          data-aos-delay="50"
+          data-aos-duration="1500"
+        >
           <img src={overlaylogo} alt="overlaylogo" />
         </div>
         <div className="Overlay__Card__con">
@@ -30,7 +40,12 @@ export function FeatureSection() {
           <div className="overlay__heading">Jamia Masjid</div>
         </div>
       </div>
-      <div className="Overlay__Cards">
+      <div
+        className="Overlay__Cards"
+        data-aos="fade-up"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+      >
         <div className="Overlay__Card__con">
           <div className="overlay__img">
             <div className="Overlay__Card__img">
