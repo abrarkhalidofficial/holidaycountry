@@ -24,7 +24,9 @@ export function HomeSection() {
           <div className="navbar__logo">
             <div className="navbar__logo__content">
               <div className="navbar__logo__img">
-                <img src={Bannerlogo} alt="Bannerlogo" />
+                <a href="https://holiday-country.web.app/">
+                  <img src={Bannerlogo} alt="Bannerlogo" />
+                </a>
               </div>
             </div>
             <nav className="navbar__main">

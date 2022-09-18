@@ -85,7 +85,7 @@ export function OfferSection() {
     <section className="offer__Section">
       <div className="offer__heading">Facilities We Offer</div>
       <div className="offer__heading__img">
-        <img src={offerback} alt="" />
+        <img src={offerback} alt="background" />
       </div>
       <div className="slider">
         <Swiper spaceBetween={15} slidesPerView={slidesPerView}>
@@ -94,7 +94,7 @@ export function OfferSection() {
               <SwiperSlide className="swiper__slider" key={index}>
                 <div className="swiper__card__con">
                   <div className="slider__img">
-                    <img src={item.img} alt="" />
+                    <img src={item.img} alt="swiperimg" />
                   </div>
                 </div>
                 <div className="offer__overlay"></div>

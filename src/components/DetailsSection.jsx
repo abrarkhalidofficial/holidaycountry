@@ -39,7 +39,7 @@ export function DetailsSection() {
         </div>
         <div className="details__right">
           <div className="details__right__img">
-            <img src={detailrightfin} alt="" />
+            <img src={detailrightfin} alt="detailsimg" />
           </div>
         </div>
       </div>

@@ -6,11 +6,11 @@ export function EventSection() {
   return (
     <section className="event">
       <div className="event__img">
-        <img src={eventimg} alt="" />
+        <img src={eventimg} alt="eventimg" />
       </div>
       <div className="event__con">
         <div className="event__con__logo">
-          <img src={eventlogo} alt="" />
+          <img src={eventlogo} alt="eventlogo" />
         </div>
         <div className="event__con__heading">Event Lawn</div>
         <div className="event__con__info">

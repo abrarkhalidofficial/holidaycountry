@@ -7,11 +7,13 @@
   font-family: "Ubuntu", sans-serif;
   scroll-behavior: smooth;
 }
+
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
+
 body::-webkit-scrollbar {
   width: 12px;
 }
@@ -81,8 +83,7 @@ body::-webkit-scrollbar-track {
   padding: 8px 10px;
 }
 .navbar_contant:hover {
-  color: rgba(209, 190, 13, 0.801);
-  text-decoration: underline;
+  color: #9e824c;
 }
 
 /* 2nd .navbar */
@@ -109,6 +110,9 @@ body::-webkit-scrollbar-track {
   text-decoration: none;
   color: white;
   font-size: 18px;
+}
+.side_nav ul li a:hover {
+  color: #9e824c;
 }
 @keyframes slider {
   from {
@@ -181,6 +185,9 @@ body::-webkit-scrollbar-track {
   top: 25%;
   left: 10%;
 }
+.about__us__left:hover {
+  background-color: #042a39;
+}
 .about__us__left__logo {
   padding-bottom: 1em;
 }
@@ -189,16 +196,16 @@ body::-webkit-scrollbar-track {
   height: 100%;
 }
 .about__us__left__heading {
-  font-size: 20px;
+  font-size: 24px;
   color: white;
   margin-bottom: 10px;
   font-family: "Prata", serif;
 }
 .about__us__left__Info {
-  font-size: 15px;
+  font-size: 16px;
   width: 100%;
   color: white;
-  font-family: "Prata", serif;
+  font-family: "Ubuntu", sans-serif;
 }
 .about__us__mid {
   width: 65%;
@@ -251,6 +258,9 @@ body::-webkit-scrollbar-track {
 .swiper__slider {
   width: 40%;
   display: flex;
+}
+.swiper__card__con {
+  text-align: center;
 }
 .slider__img__heading {
   position: absolute;
@@ -321,7 +331,7 @@ body::-webkit-scrollbar-track {
 .event {
   width: 100%;
   padding-top: 8em;
-  padding-bottom: 8em;
+  padding-bottom: 5em;
   margin: 0 auto;
   max-width: 1920px;
   position: relative;
@@ -332,7 +342,7 @@ body::-webkit-scrollbar-track {
   width: 100%;
 }
 .event__con {
-  width: 20%;
+  width: 19%;
   padding-top: 2em;
   background-color: #042a39;
   border-radius: 0px 160px 0px 0px;
@@ -340,6 +350,7 @@ body::-webkit-scrollbar-track {
   top: 22%;
   left: 65%;
 }
+
 .event__con__logo {
   margin-left: 2em;
   margin-bottom: 10px;
@@ -354,9 +365,9 @@ body::-webkit-scrollbar-track {
 .event__con__info {
   margin-left: 1.5em;
   font-size: 17px;
-  width: 70%;
-  color: white;
+  width: 75%;
   font-family: "Prata", serif;
+  color: white;
   padding-bottom: 1em;
 }
 .Overlay__Cards {
@@ -397,10 +408,12 @@ body::-webkit-scrollbar-track {
     #ad925e 0%,
     rgba(173, 146, 94, 0.46) 100%
   );
+
   z-index: 9999;
   border-radius: 12px;
   cursor: pointer;
 }
+
 .overlay__heading {
   font-size: 25px;
   color: white;
@@ -414,11 +427,10 @@ body::-webkit-scrollbar-track {
   width: 100%;
   justify-content: center;
   align-items: center;
-  margin-top: 8em;
   text-align: center;
-  margin-bottom: 4em;
   max-width: 1920px;
   margin: 0 auto;
+  padding-top: 3em;
 }
 
 .location__heading {
@@ -445,12 +457,15 @@ body::-webkit-scrollbar-track {
 }
 
 .All__location__Cards {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    360deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(241, 241, 241, 1) 100%
-  );
+  // background: rgb(255, 255, 255);
+  // background: linear-gradient(
+  //   360deg,
+  //   rgba(255, 255, 255, 1) 0%,
+  //   rgba(241, 241, 241, 1) 100%
+  // );
+  background: linear-gradient(180deg, #f1f1f1 0%, rgba(241, 241, 241, 0) 100%);
+  border-radius: 9px;
+  transform: rotate(360deg);
   width: 12%;
   padding: 1em;
   margin: 1em;
@@ -490,10 +505,8 @@ body::-webkit-scrollbar-track {
   width: 100%;
   justify-content: center;
   align-items: center;
-  margin-top: 4em;
   text-align: center;
-  padding-top: 8em;
-  margin-bottom: 4em;
+  padding-top: 1em;
   max-width: 1920px;
   margin: 0 auto;
   position: relative;
@@ -515,7 +528,7 @@ body::-webkit-scrollbar-track {
 }
 
 .details__left__heading {
-  width: 15%;
+  width: 17%;
   margin: 1em;
   margin-left: 2em;
   color: white;
@@ -561,8 +574,8 @@ body::-webkit-scrollbar-track {
   text-align: center;
   max-width: 1920px;
   margin: 0 auto;
-  margin-top: 8em;
-  padding-top: 5em;
+  margin-top: 5em;
+  padding-top: 2em;
   background-color: #042a39;
   color: white;
   position: relative;
@@ -597,11 +610,15 @@ body::-webkit-scrollbar-track {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 3em;
+  padding-top: 1em;
   text-align: center;
 }
 .footer__bottom__svg {
   margin: 1em;
+}
+.footer__bottom__svg svg {
+  width: 40px;
+  height: 50px;
 }
 .footer__bottom__heading {
   font-size: 20px;
@@ -609,9 +626,12 @@ body::-webkit-scrollbar-track {
   margin: 10px;
 }
 .all__footer__bottom__con {
-  padding: 5em;
+  padding: 2em;
   border-right: 2px solid white;
   width: 25%;
+}
+.all__footer__bottom__con:last-child {
+  border-right: none;
 }
 .footer__bottom__info {
   font-size: 14px;
@@ -623,7 +643,7 @@ body::-webkit-scrollbar-track {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 3em;
+  padding-top: 2em;
   text-align: center;
 }
 .footer__social__link {
@@ -656,7 +676,7 @@ body::-webkit-scrollbar-track {
 }
 @media (max-width: 1400px) {
   .about__us__left {
-    width: 20%;
+    width: 19%;
     top: 29%;
   }
   .about__us__mid img {
@@ -698,7 +718,14 @@ body::-webkit-scrollbar-track {
     font-size: 13px;
   }
   .about__us__left {
-    width: 22%;
+    width: 20%;
+    height: 351px;
+  }
+  .about__us__right img {
+    height: 460px;
+  }
+  .about__us__mid img {
+    height: 500px;
   }
   .offer__heading__img {
     left: 30%;
@@ -749,7 +776,7 @@ body::-webkit-scrollbar-track {
     display: none;
   }
   .footer__lorem {
-    width: 95%;
+    width: 90%;
   }
   .all__footer__bottom__con {
     padding: 2em;
@@ -839,6 +866,9 @@ body::-webkit-scrollbar-track {
   }
   .overlay__heading {
     font-size: 35px;
+  }
+  .about__us__right {
+    width: 4%;
   }
 }
 @media (max-width: 950px) {
@@ -951,6 +981,23 @@ body::-webkit-scrollbar-track {
     width: 40%;
   }
 }
+@media (max-width: 750px) {
+  .details__left__heading__all {
+    display: none;
+  }
+  .details__left__entries {
+    border: #a7a7a7 1px solid;
+  }
+  .details__left__entries_all {
+    flex-wrap: wrap;
+  }
+  .details__left__entries {
+    width: 80%;
+  }
+  .details__left__entries {
+    margin-bottom: 1em;
+  }
+}
 @media (max-width: 700px) {
   .Overlay__Card__con {
     width: 70%;
@@ -968,7 +1015,7 @@ body::-webkit-scrollbar-track {
     padding: 0em;
   }
   .footer__lorem {
-    font-size: 18px;
+    font-size: 17px;
   }
   .all__footer__bottom__con {
     width: 100%;
@@ -1040,6 +1087,9 @@ body::-webkit-scrollbar-track {
   .All__location__Cards {
     width: 70%;
   }
+  .details__left__entries_all {
+    margin-left: 4em;
+  }
 }
 @media (max-width: 500px) {
   .contect__header__line {
@@ -1069,7 +1119,7 @@ body::-webkit-scrollbar-track {
     font-size: 14px;
   }
   .about__us__left {
-    height: 400px;
+    height: 340px;
   }
   .about__us__left {
     left: 10%;
@@ -1106,6 +1156,26 @@ body::-webkit-scrollbar-track {
   .detail__heading {
     font-size: 30px;
   }
+  .place__right__heading {
+    margin-right: -36px;
+  }
+  .place__right__img img {
+    width: 100%;
+    height: 360px;
+  }
+  .place__right {
+    width: 82%;
+    margin: 1em;
+  }
+  .footer__bottom__heading {
+    font-size: 24px;
+  }
+  .footer__bottom__info {
+    font-size: 16px;
+  }
+  .footer__social__link {
+    padding: 1.5em;
+  }
 }
 @media (max-width: 400px) {
   .menu_btn {
@@ -1141,14 +1211,46 @@ body::-webkit-scrollbar-track {
     font-size: 32px;
   }
   .place__right__heading {
-    margin-right: -28px;
+    margin-right: -66px;
+  }
+  .place__right__img img {
+    width: 103%;
+    height: 360px;
+  }
+  .place__right {
+    width: 87%;
+    margin: 1em;
   }
   .event__con {
-    width: 84%;
+    width: 77%;
     left: 10%;
   }
   .overlay__heading {
     left: 16%;
     font-size: 28px;
+  }
+  .swiper-slide {
+    margin-left: 25px;
+    margin-right: 5px;
+  }
+  .place__left {
+    margin-top: 5em;
+  }
+  .slider__img__heading {
+    font-size: 30px;
+  }
+  .place__left {
+    width: 100%;
+    margin-right: 0em;
+  }
+  .location__heading {
+    margin-top: 1em;
+    font-size: 40px;
+  }
+  .navbar__logo {
+    width: 82%;
+  }
+  .menu_btn {
+    right: 2px;
   }
 }

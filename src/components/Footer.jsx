@@ -6,11 +6,11 @@ export function Footer() {
   return (
     <section className="footer" id="Contact">
       <div className="footer__logo">
-        <img src={footerlogo} alt="" />
+        <img src={footerlogo} alt="footerlogo" />
       </div>
       <div className="footer__all__con">
         <div className="footer__left">
-          <img src={footerleft} alt="" />
+          <img src={footerleft} alt="footerleftimg" />
         </div>
         <div className="footer__lorem">
           Lorem Ipsum is simply dummy text of the printing and typesetting
