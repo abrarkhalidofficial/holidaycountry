@@ -3448,7 +3448,7 @@ vite-plugin-webfont-dl@^3.1.1:
   dependencies:
     axios "^0.25"
 
-vite@^3.1.1:
+vite@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/vite/-/vite-3.1.2.tgz#6b080f928490b1a46465ed3cbb4815f31f1a5376"
   integrity sha512-wTDKPkiVbeT+drTPdkuvjVIC/2vKKUc1w3qNOuwgpyvPCZF6fvdxB5v5WEcCsqaYea0zrwA4+XialJKCHM3oVQ==
