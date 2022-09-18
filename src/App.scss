@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+
 * {
   box-sizing: border-box;
   text-decoration: none;
@@ -6,14 +7,21 @@
   font-family: "Ubuntu", sans-serif;
   scroll-behavior: smooth;
 }
-
 body {
   margin: 0;
   padding: 0;
-
   overflow-x: hidden;
 }
-
+body::-webkit-scrollbar {
+  width: 12px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #9e824c;
+  border-radius: 50px;
+}
+body::-webkit-scrollbar-track {
+  background-color: white;
+}
 .container {
   display: flex;
   justify-content: space-between;
@@ -244,19 +252,6 @@ body {
   width: 40%;
   display: flex;
 }
-/* .offer__overlay {
-  background: linear-gradient(
-    180deg,
-    #ad925e 0%,
-    rgba(173, 146, 94, 0.46) 100%
-  );
-  position: absolute;
-  width: 265px;
-  height: 410px;
-  z-index: 9999;
-  border-radius: 20px 20px 0px 0px;
-  cursor: pointer;
-} */
 .slider__img__heading {
   position: absolute;
   top: 85%;
