@@ -100,17 +100,22 @@ export function OfferSection() {
             return (
               <SwiperSlide className="swiper__slider" key={index}>
                 <div
-                  className="swiper__card__con"
+                  className="offer__entry"
                   data-aos="fade-up"
                   data-aos-delay="50"
                   data-aos-duration="1500"
                 >
-                  <div className="slider__img">
-                    <img src={item.img} alt="swiperimg" />
+                  <img
+                    src={item.img}
+                    alt="swiperimg"
+                    className="offer__entry__img"
+                  />
+                  <div className="offer__entry__overlay">
+                    <div className="offer__entry__overlay__heading">
+                      {item.name}
+                    </div>
                   </div>
                 </div>
-                <div className="offer__overlay"></div>
-                <div className="slider__img__heading">{item.name}</div>
               </SwiperSlide>
             );
           })}
