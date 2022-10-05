@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import offerback from "../assets/offerback.png";
 import sliderimg1 from "../assets/slider1.png";
 import sliderimg2 from "../assets/slider2.png";
@@ -6,7 +7,6 @@ import sliderimg3 from "../assets/slider3.png";
 import sliderimg4 from "../assets/slider4.png";
 import sliderimg5 from "../assets/slider5.png";
 import sliderimg6 from "../assets/slider6.png";
-import { Swiper, SwiperSlide } from "swiper/react";
 
 export function OfferSection() {
   const [slidesPerView, setSlidesPerView] = useState(6);
