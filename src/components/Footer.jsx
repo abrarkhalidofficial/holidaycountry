@@ -13,10 +13,10 @@ export function Footer() {
           <img src={footerleft} alt="footerleftimg" />
         </div>
         <div className="footer__lorem">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+          Holiday Country Club is designed as per international standards in
+          design, architecture & amenities that makes it your happy place. For
+          bookings and details of Pakistan’s first premium theme-based country
+          club:
         </div>
       </div>
 
@@ -39,7 +39,9 @@ export function Footer() {
             </svg>
           </div>
           <div className="footer__bottom__heading">Email Address</div>
-          <div className="footer__bottom__info">abc123@gmail.com</div>
+          <div className="footer__bottom__info">
+            Info@holidaycountryclub.com
+          </div>
         </div>
         <div className="all__footer__bottom__con">
           <div className="footer__bottom__svg">
@@ -65,7 +67,7 @@ export function Footer() {
             </svg>
           </div>
           <div className="footer__bottom__heading">Contact us</div>
-          <div className="footer__bottom__info">0300-1234567</div>
+          <div className="footer__bottom__info">0300 0043031</div>
         </div>
         <div className="all__footer__bottom__con">
           <div className="footer__bottom__svg">

@@ -41,9 +41,9 @@ export function EventSection() {
           data-aos-delay="60"
           data-aos-duration="1100"
         >
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took.
+          nderstanding your penchant for the suave and the sophisticated,
+          Holiday Country Club provides the best facilities for all corporate
+          meetings & events in a magnificent event lawn.
         </div>
       </div>
     </section>

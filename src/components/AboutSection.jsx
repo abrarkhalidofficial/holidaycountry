@@ -41,10 +41,10 @@ export function AboutSection() {
             data-aos-delay="50"
             data-aos-duration="1200"
           >
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            Holiday Country Club is a theme-based resort & gated community
+            nestled in the lap of nature & laden with all the modern-day
+            amenities. Strategically situated on the much coveted CPEC route and
+            only an hour away from Islamabad.
           </div>
         </div>
         <div className="about__us__mid">

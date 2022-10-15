@@ -15,9 +15,9 @@ export function DetailsSection() {
           </div>
           <div className="details__left__entries_all">
             <div className="details__left__entries">
-              <div className="details__left__entries__heading">4 Canal</div>
-              <div className="details__left__entries__heading">8 Canal</div>
-              <div className="details__left__entries__heading">12 Canal</div>
+              <div className="details__left__entries__heading">4 Kanal</div>
+              <div className="details__left__entries__heading">8 Kanal</div>
+              <div className="details__left__entries__heading">12 Kanal</div>
             </div>
             <div className="details__left__entries">
               <div className="details__left__entries__heading">4 Million</div>
