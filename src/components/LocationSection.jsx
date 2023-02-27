@@ -1,5 +1,3 @@
-import React from "react";
-
 export function LocationSection() {
   return (
     <section className="location">

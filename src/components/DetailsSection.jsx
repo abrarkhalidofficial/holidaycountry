@@ -1,4 +1,3 @@
-import React from "react";
 import detailrightfin from "../assets/detailsfin.png";
 
 export function DetailsSection() {

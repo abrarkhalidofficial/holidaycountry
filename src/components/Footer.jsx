@@ -1,6 +1,5 @@
-import React from "react";
-import footerlogo from "../assets/footerlogo.png";
 import footerleft from "../assets/footerleft.png";
+import footerlogo from "../assets/footerlogo.png";
 
 export function Footer() {
   return (
@@ -19,7 +18,6 @@ export function Footer() {
           club:
         </div>
       </div>
-
       <div className="footer__bottom">
         <div className="all__footer__bottom__con">
           <div className="footer__bottom__svg">

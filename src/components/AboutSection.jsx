@@ -1,4 +1,3 @@
-import React from "react";
 import About__us__logo from "../assets/About__us__logo.png";
 import abou__us from "../assets/abou__us.png";
 import about__us__ryt from "../assets/about__us__ryt.png";

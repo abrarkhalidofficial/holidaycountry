@@ -1,12 +1,12 @@
-import React, { useEffect } from "react";
-import menu from "../assets/menu.png";
-import close from "../assets/close.png";
-import banner from "../assets/banner.png";
+import { useEffect, useState } from "react";
 import Bannerlogo from "../assets/Bannerlogo.png";
+import banner from "../assets/banner.png";
+import close from "../assets/close.png";
 import contect__header__logo from "../assets/contect__header__logo.png";
+import menu from "../assets/menu.png";
 
 export function HomeSection() {
-  const [show, setShow] = React.useState(false);
+  const [show, setShow] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
       if (window.scrollY > 0) {

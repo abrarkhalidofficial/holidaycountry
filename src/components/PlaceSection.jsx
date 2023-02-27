@@ -1,4 +1,3 @@
-import React from "react";
 import placeleftlogo from "../assets/Place-Logo.png";
 import placemidimg from "../assets/Place-left.png";
 import placerightimg from "../assets/place-right.png";

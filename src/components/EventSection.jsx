@@ -1,6 +1,5 @@
-import React from "react";
-import eventlogo from "../assets/event-logo.png";
 import eventimg from "../assets/event-section.png";
+import eventlogo from "../assets/event-logo.png";
 
 export function EventSection() {
   return (

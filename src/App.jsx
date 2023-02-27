@@ -1,15 +1,14 @@
-import React from "react";
 import AOS from "aos";
-import { HomeSection } from "./components/HomeSection";
-import { FeatureSection } from "./components/FeatureSection";
-import { EventSection } from "./components/EventSection";
-import { PlaceSection } from "./components/PlaceSection";
-import { OfferSection } from "./components/OfferSection";
 import { AboutSection } from "./components/AboutSection";
-import { LocationSection } from "./components/LocationSection";
 import { DetailsSection } from "./components/DetailsSection";
+import { EventSection } from "./components/EventSection";
+import { FeatureSection } from "./components/FeatureSection";
 import { Footer } from "./components/Footer";
+import { HomeSection } from "./components/HomeSection";
+import { LocationSection } from "./components/LocationSection";
 import { MapSection } from "./components/MapSection";
+import { OfferSection } from "./components/OfferSection";
+import { PlaceSection } from "./components/PlaceSection";
 
 export function App() {
   AOS.init();

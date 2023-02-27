@@ -1,10 +1,9 @@
-import React from "react";
-import overlaylogo from "../assets/overlay-logo.png";
 import overlaycard1 from "../assets/overlaycard1.png";
 import overlaycard2 from "../assets/overlaycard2.png";
 import overlaycard3 from "../assets/overlaycard3.png";
 import overlaycard4 from "../assets/overlaycard4.png";
 import overlaycard5 from "../assets/overlaycard5.png";
+import overlaylogo from "../assets/overlay-logo.png";
 
 export function FeatureSection() {
   return (
