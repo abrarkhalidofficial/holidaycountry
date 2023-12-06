@@ -1,4 +1,3 @@
-
 export function MapSection({}) {
   return (
     <section className="location__map">
